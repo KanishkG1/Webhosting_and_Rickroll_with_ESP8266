@@ -37,7 +37,7 @@ void setup() {
   pinMode(LED_BUILTIN,OUTPUT);
 
   Serial.begin(74880);
-  WiFi.begin("WI-FI SSID", "Password");           /*enter the wifi ssid and the password*/ gdgsdggdgagd
+  WiFi.begin("WI-FI SSID", "Password");           /*enter the wifi ssid and the password*/
 
   while (WiFi.status() != WL_CONNECTED) {
     delay(100);
